@@ -237,3 +237,12 @@ h4{
   font-size: 20px;
   color: grey;
 }
+
+
+.nav-flex li {
+  list-style: none;
+}
+
+.nav-flex li a {
+  text-decoration: none;
+}

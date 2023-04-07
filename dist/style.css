@@ -1,0 +1,239 @@
+/*NAV BAR*/
+.navbar{
+  width: auto;
+  background: #F9EAD5;
+  border-bottom: 10px solid maroon;
+  border-top: 10px solid maroon;
+  margin: auto;
+  padding-top: 10px;
+  line-height: 20px;
+}
+
+.nav-flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+/*BACKGROUND IMAGE*/
+body{
+  background-image: url("https://lherna1371.github.io/image-assets/public/heroBackground.jpg");
+  background-color: tan;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+/*LOGO*/
+.logo{
+  width: 200px;
+  margin: 0 auto;
+  align-content: center;
+}
+
+/* ABOUT US SECTION */
+.about-us{
+  width: 800px;
+  border: 10px solid maroon;
+  margin: 0 auto;
+  padding: 10px;
+  padding-bottom: 50px;
+  background: #F9EAD5;
+  font-family: georgia;
+}
+
+.aboutusimg{
+  padding: 10px;
+  float: right;
+  width: 300px;
+}
+
+/*****************************************/
+/****************MENU SECTION*************/
+/****************************************/
+.menu{
+  width:800px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: justify;
+  background: #F9EAD5;
+  border: 10px solid maroon;
+}
+
+/*********MENU ITEM BOX*******/
+.menu-child{
+  margin:10px;
+}
+.wraps{
+  float: left;
+  width: 45%;
+  padding-right: 10px;
+  border-right: 2px solid maroon;
+  
+}
+.sides{
+  float: left;
+  width: 45%;
+}
+/* MENU ITEM NAME  */
+.item-head{
+  font-size: 16px;
+  font-family: georgia;
+  margin-bottom: 20px;
+  
+}
+
+/*******MENU ITEM DESCRIPTION**********/
+.item-body{
+  font-size: 12px;
+  font-family: georgia;
+  margin-bottom: 30px;
+}
+
+/* MENU PICTURE*/
+#menuimg{
+  display: block;
+  width: 500px;
+  margin: auto;
+  align-content: center;
+}
+
+/* MATHEMATICIANS FAVORITES SECTION*/
+.math-faves{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  background: #F9EAD5;
+  float: center;
+}
+
+.math-faves-head{
+}
+
+.math-faves-gallery{
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.math-fave-img{
+  width: 200px;
+  border: 3px solid maroon;
+}
+/*IMAGE GALLERY*/
+
+/***********************************/
+/***********END MENU SECTION*******/
+/**********************************/
+
+/***************************************/
+/******LOCATION AND HOURS SECTION******/
+/**************************************/
+
+/*MAIN SECTION FORMATTING*/
+.lochours{
+  align-content: center;
+  width: 400px;
+  border: 10px solid maroon;
+  margin: 0 auto;
+  padding: 10px;
+  background: #F9EAD5;
+}
+/* ADDRESS FORMATTING*/
+.address{
+  text-align: center;
+  font-size: 25px;
+  font-family:georgia;
+  color: grey;
+}
+
+/* DAY SPAN FORMATTING */
+.dayhead{
+  font-size: 17px;
+  font-family: georgia;
+  color: grey;
+  font-weight: bold;
+  border-bottom: 3px solid maroon;
+  padding:5px;
+  margin: 10px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+/*HOURS SPAN FORMATTING */
+.timehead{
+  float: center;
+  color: grey;
+  line-height: 30px;
+}
+
+/**************************************/
+/****LOCATION AND HOURS SECTION END****/
+/**************************************/
+
+
+/**************************************/
+/****FOOTER SECTION START****/
+/**************************************/
+.socials{
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.socials-child{
+  width: 50px;
+  margin; 0 20px;
+  
+}
+
+.footer-text{
+  color: white;
+  text-align: center;
+}
+/**************************************/
+/****FOOTER SECTION END****/
+/**************************************/
+
+
+/************************************/
+/**********HEADER STYLING***********/
+/***********************************/
+h1{
+  font-family: serif;
+  font-size:50px;
+  color: maroon;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;  
+  background: #F9EAD5;
+  border: 10px solid maroon;
+}
+
+h2{
+  font-family: georgia;
+  color: #F9EAD5;
+  font-size: 30px;
+  background: maroon;
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h3{
+  font-family:serif;
+  font-size: 25px;
+  color: maroon;
+  width: 350px;
+  margin: 10px 0 40px 0;
+}
+
+h4{
+  font-family: georgia;
+  font-size: 20px;
+  color: grey;
+}
